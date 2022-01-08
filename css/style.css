@@ -3555,4 +3555,17 @@ header .container .menu a:hover {
     right: 0;
   }
 }
+
+.filter {
+  font-size: 1.5rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: .5rem 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
 /*# sourceMappingURL=style.css.map */
