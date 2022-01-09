@@ -1,7 +1,3 @@
-.float {
-    animation: float 2.5s linear infinite;
-}
-
 @keyframes float {
 
     0%,
@@ -11,5 +7,12 @@
 
     50% {
         transform: translateY(1rem);
+    }
+}
+
+@keyframes fadeUp{
+    0%{
+        transform: translateY(5rem);
+        opacity: 0;
     }
 }

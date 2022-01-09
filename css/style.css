@@ -3362,11 +3362,6 @@ h5 {
   border-bottom: 1px solid white;
 }
 
-.float {
-  -webkit-animation: float 2.5s linear infinite;
-          animation: float 2.5s linear infinite;
-}
-
 @-webkit-keyframes float {
   0%,
   100% {
@@ -3389,6 +3384,66 @@ h5 {
     -webkit-transform: translateY(1rem);
             transform: translateY(1rem);
   }
+}
+
+@-webkit-keyframes fadeUp {
+  0% {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+    opacity: 0;
+  }
+}
+
+.card {
+  padding: 2.6rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.card.hide {
+  display: none;
+}
+
+.card.active {
+  -webkit-animation: fadeUp .4s linear;
+          animation: fadeUp .4s linear;
+}
+
+.card .bid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 0;
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border-radius: 10px;
+  margin-top: 2.5rem;
+}
+
+.card .bid:hover {
+  background: transparent;
+  border: 1px solid #A24BF8;
+  color: #A24BF8;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.current {
+  font-size: 1.5rem;
 }
 
 header {
@@ -3556,6 +3611,11 @@ header .container .menu a:hover {
   }
 }
 
+.float {
+  -webkit-animation: float 2.5s linear infinite;
+          animation: float 2.5s linear infinite;
+}
+
 .filter {
   font-size: 1.5rem;
   text-align: center;
@@ -3567,5 +3627,14 @@ header .container .menu a:hover {
 
 .filter:hover {
   background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+
+.collect.hide {
+  display: none;
+}
+
+.collect.active {
+  -webkit-animation: fadeUp .4s linear;
+          animation: fadeUp .4s linear;
 }
 /*# sourceMappingURL=style.css.map */

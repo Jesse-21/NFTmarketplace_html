@@ -8,20 +8,9 @@
 @import "modules/shadow";
 @import "modules/border";
 @import "modules/animation";
+@import "modules/card";
 
 //layout
 @import "layout/header";
-
-//collections
-.filter{
-    font-size: 1.5rem;
-    text-align: center;
-    background: $white10;
-    padding: .5rem 0;
-    border-radius: 10px;
-    cursor: pointer;
-
-    &:hover{
-        background: $purple;
-    }
-}
+@import "layout/home";
+@import "layout/collection";
