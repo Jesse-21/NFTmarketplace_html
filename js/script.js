@@ -7,7 +7,7 @@ window.onscroll = () => {
     navbar.classList.remove('active')
 }
 
-//filter
+//Collections filter
 let filterBtn = document.querySelectorAll('.filter-buttons .filter');
 let filterItem = document.querySelectorAll('.collections .box-card .collect');
 
@@ -31,7 +31,7 @@ filterBtn.forEach(button => {
     }
 })
 
-//collections
+//Featured Art
 var swiper = new Swiper(".card-slider", {
     effect: "coverflow",
     grabCursor: true,
@@ -46,7 +46,27 @@ var swiper = new Swiper(".card-slider", {
     },
     loop: true,
     autoplay: {
-        delay: 3000,
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+  });
+
+  //Creator
+  var swiper = new Swiper(".creator-slider", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 2,
+      slideShadows: true,
+    },
+    loop: true,
+    autoplay: {
+        delay: 3500,
         disableOnInteraction: false,
     },
   });

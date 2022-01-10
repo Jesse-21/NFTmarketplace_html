@@ -3643,4 +3643,42 @@ header .container .menu a:hover {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+.card-creator {
+  border-radius: 10px;
+  padding-bottom: 42px;
+}
+
+.card-creator .desc {
+  font-size: 1.5rem;
+}
+
+.card-creator .follow {
+  padding: 1rem 11rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-creator .follow:hover {
+  background: transparent;
+  border: 1px solid #A24BF8;
+  color: #A24BF8;
+}
+
+.card-creator:hover {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-creator img.photo {
+  width: 99px;
+  margin-top: -5.3rem;
+}
+
+.creator .swiper {
+  width: 100%;
+  padding-top: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
