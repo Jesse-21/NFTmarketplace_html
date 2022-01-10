@@ -3637,4 +3637,10 @@ header .container .menu a:hover {
   -webkit-animation: fadeUp .4s linear;
           animation: fadeUp .4s linear;
 }
+
+.featured {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
