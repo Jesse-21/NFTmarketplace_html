@@ -3681,4 +3681,53 @@ header .container .menu a:hover {
   width: 100%;
   padding-top: 3rem;
 }
+
+.box {
+  cursor: pointer;
+}
+
+.box .title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 1rem;
+}
+
+.box .answer {
+  display: none;
+  -webkit-animation: down .5s linear backwards;
+          animation: down .5s linear backwards;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.box.active .title {
+  border-color: white;
+}
+
+.box.active .title h3 {
+  color: white;
+}
+
+.box.active .title i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: white;
+}
+
+.box.active .answer {
+  display: block;
+}
+
+@-webkit-keyframes down {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+
+@keyframes down {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
 /*# sourceMappingURL=style.css.map */

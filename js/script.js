@@ -70,3 +70,14 @@ var swiper = new Swiper(".card-slider", {
         disableOnInteraction: false,
     },
   });
+
+  //faq
+  let faq = document.querySelectorAll('.box-faq .box');
+  faq.forEach(box => {
+      box.onclick =()=>{
+        faq.forEach(unbox => {
+            unbox.classList.remove('active');
+        })
+        box.classList.add('active');
+      }
+  })
