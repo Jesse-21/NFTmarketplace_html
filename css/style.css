@@ -3730,4 +3730,21 @@ header .container .menu a:hover {
             transform: scaleY(0);
   }
 }
+
+.container {
+  border-radius: 10px;
+}
+
+.started:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+}
+
+footer a {
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */

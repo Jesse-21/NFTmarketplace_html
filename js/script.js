@@ -81,3 +81,6 @@ var swiper = new Swiper(".card-slider", {
         box.classList.add('active');
       }
   })
+
+  //Scroll up button
+  //document.querySelector('#bar').onclick = () =>{
