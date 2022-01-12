@@ -1,3 +1,21 @@
+//Get the button:
+let mybutton = document.querySelector('#myBtn');
+
+//Checks for when the user scrolls for about 250px then adds the display
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 250) {
+    mybutton.classList.add("active");
+  } else {
+    mybutton.classList.remove("active");
+  }
+})
+
+// When the user clicks on the button, scroll to the top of the document
+mybutton.onclick = () =>{
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 //header
 let navbar = document.querySelector('.menu');
 document.querySelector('#bar').onclick = () =>{
@@ -81,6 +99,3 @@ var swiper = new Swiper(".card-slider", {
         box.classList.add('active');
       }
   })
-
-  //Scroll up button
-  //document.querySelector('#bar').onclick = () =>{
