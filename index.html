@@ -1,538 +1,639 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- swiperjs cdn link -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- swiperjs cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
 
     <!-- css link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Google Font Link-->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!--Custom css Link-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>PsychArt</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Scroll-up button -->
     <button class="btn bg-purple" id="myBtn" title="Go to top">Top</button>
-    
+
     <!-- onclick="topFunction()" -->
 
     <!--Header starts-->
     <header class="header bg-white10">
-        <div class="container">
-            <a href="#home" class="logo bold white">Psych<span class="lightpurple">Art</span></a>
+      <div class="container">
+        <a href="#home" class="logo bold white"
+          >Psych<span class="lightpurple">Art</span></a
+        >
 
-            <div class="menu">
-                <form action="" class="search-form">
-                    <label for="search-box" class="fas fa-search"></label>
-                    <input type="search" id="search-box" placeholder="Search items and collections"> 
-                </form>
-                <a href="#collections">Collections</a>
-                <a href="#featured">Featured</a>
-                <a href="#faq">FAQ</a>
-                <div class="btn bg-purple wallet">Select Wallet</div>
-            </div>
-
-            <div class="fas fa-wallet" id="wallet"></div>
-            <div class="fas fa-bars" id="bar"></div>
+        <div class="menu">
+          <form action="" class="search-form">
+            <label for="search-box" class="fas fa-search"></label>
+            <input
+              type="search"
+              id="search-box"
+              placeholder="Search items and collections"
+            />
+          </form>
+          <a href="#collections">Collections</a>
+          <a href="#featured">Featured</a>
+          <a href="#faq">FAQ</a>
+          <div class="btn bg-purple wallet">Select Wallet</div>
         </div>
+
+        <div class="fas fa-wallet" id="wallet"></div>
+        <div class="fas fa-bars" id="bar"></div>
+      </div>
     </header>
     <!--Header ends-->
 
     <!-- Home section starts -->
     <section id="home" class="spacetop15 spacebottom10">
-    <div class="container">
+      <div class="container">
         <div class="row jc-between ai-center col-reverse-s">
-            <div class="col5 col6-md col12-s ta-center-s">
-                <h1 class="size5 bold spacebottom1">
-                    Create, Sell & Collect Your Own Creative NFT
-                </h1>
-                <p class="size2 spacebottom3 halfwhite">Lorem ipsum dolor sit amet, My name is Mogbo and I shall be Big. Consectetur adipiscing elit.</p>
+          <div class="col5 col6-md col12-s ta-center-s">
+            <h1 class="size5 bold spacebottom1">
+              Create, Sell & Collect Your Own Creative NFT
+            </h1>
+            <p class="size2 spacebottom3 halfwhite">
+              Lorem ipsum dolor sit amet, My name is Mogbo and I shall be Big.
+              Consectetur adipiscing elit.
+            </p>
 
-                    <div class="row col8 col9-md jc-between spacebottom4 jc-evenly-s col12-s">
-                        <a href="#collections" class="btn bg-purple size2 white">Explore now</a>
-                        <a href="#banner" class="btn bg-white10 size2 white">Sell NFT</a>
-                    </div>
+            <div
+              class="row col8 col9-md jc-between spacebottom4 jc-evenly-s col12-s"
+            >
+              <a href="#collections" class="btn bg-purple size2 white"
+                >Explore now</a
+              >
+              <a href="#banner" class="btn bg-white10 size2 white">Sell NFT</a>
+            </div>
 
-                    <div class="row jc-between">
-                        <div class="ta-center">
-                            <p class="size3 bold">45k+</p>
-                            <p class="size2 halfwhite">Artworks</p>
-                        </div>
-                        <div class="ta-center">
-                            <p class="size3 bold">30k+</p>
-                            <p class="size2 halfwhite">Artists</p>
-                        </div>
-                        <div class="ta-center">
-                            <p class="size3 bold">99k+</p>
-                            <p class="size2 halfwhite">Auctions</p>
-                        </div>
-                    </div>
+            <div class="row jc-between">
+              <div class="ta-center">
+                <p class="size3 bold">45k+</p>
+                <p class="size2 halfwhite">Artworks</p>
+              </div>
+              <div class="ta-center">
+                <p class="size3 bold">30k+</p>
+                <p class="size2 halfwhite">Artists</p>
+              </div>
+              <div class="ta-center">
+                <p class="size3 bold">99k+</p>
+                <p class="size2 halfwhite">Auctions</p>
+              </div>
             </div>
-            <div class="col6 col12-s spacebottom3-s">
-                <img src="img/heroimage.png" class="img-responsive float" alt="">
-            </div>
+          </div>
+          <div class="col6 col12-s spacebottom3-s">
+            <img src="img/heroimage.png" class="img-responsive float" alt="" />
+          </div>
         </div>
-    </div>
+      </div>
     </section>
     <!-- Home ends -->
 
     <!-- Partner section starts -->
     <section class="spacer5 spacet0-xs">
-        <div class="container row jc-between jc-around-md">
-            <img src="img/binance.svg" alt="" class="height6 img-responsive-md">
-            <img src="img/ethereum.svg" alt="" class="height6 img-responsive-md">
-            <img src="img/blockchain.svg" alt="" class="height6 img-responsive-md">
-        </div>
+      <div class="container row jc-between jc-around-md">
+        <img src="img/binance.svg" alt="" class="height6 img-responsive-md" />
+        <img src="img/ethereum.svg" alt="" class="height6 img-responsive-md" />
+        <img
+          src="img/blockchain.svg"
+          alt=""
+          class="height6 img-responsive-md"
+        />
+      </div>
     </section>
     <!-- Partner ends -->
 
     <!-- About section starts -->
     <section id="about" class="spacer10">
-        <div class="container">
-            <h1 class="bold size4 ta-center">About Us</h1>
-            <p class="spacebottom3 halfwhite size2 ta-center">
-                Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua.
+      <div class="container">
+        <h1 class="bold size4 ta-center">About Us</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br />
+          labore et dolore magna aliqua.
+        </p>
+        <div class="row ai-center jc-between flexcol-s">
+          <div class="col5 col10-s spacebottom2-s">
+            <img src="img/about.png" alt="" class="img-responsive" />
+          </div>
+          <div class="col6 col12-s ta-center-s">
+            <h3 class="size3 bold">Get Popular NFT</h3>
+            <p class="size2 spacetop1 spacebottom3 half-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Faucibus vitae aliquet nec ullamcorper sit amet risus nullam.
+              Consectetur lorem donec massa sapien faucibus et. Nulla porttitor
+              massa id neque. Posuere morbi leo urna molestie at elementum. Eget
+              gravida cum sociis natoque penatibus et magnis. Sed vulputate odio
+              ut enim blandit volutpat maecenas volutpat.
             </p>
-            <div class="row ai-center jc-between flexcol-s">
-                <div class="col5 col10-s spacebottom2-s">
-                    <img src="img/about.png" alt="" class="img-responsive">
-                </div>
-                <div class="col6 col12-s ta-center-s">
-                    <h3 class="size3 bold">Get Popular NFT</h3>
-                    <p class="size2 spacetop1 spacebottom3 half-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Consectetur lorem donec massa sapien faucibus et. Nulla porttitor massa id neque. Posuere morbi leo urna molestie at elementum. Eget gravida cum sociis natoque penatibus et magnis. Sed vulputate odio ut enim blandit volutpat maecenas volutpat.
-                    </p>
-                    <a href="#collection" class="btn bg-purple size2 white">Show more</a>
-                </div>
-            </div>
+            <a href="#collection" class="btn bg-purple size2 white"
+              >Show more</a
+            >
+          </div>
         </div>
+      </div>
     </section>
     <!-- About ends -->
 
     <!-- Collections section starts -->
     <section id="collections" class="collections spacer10">
-        <div class="container">
-            <h1 class="bold size4 ta-center">Collections</h1>
-            <p class="spacebottom3 halfwhite size2 ta-center">
-                Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua.
-            </p>
-            <div class="row spacebottom3 filter-buttons">
-                <div class="col3 filter col6-xs spacebottom1-xs" data-filter = "all">All</div>
-                <div class="col3 filter col6-xs spacebottom1-xs" data-filter = "art">Art</div>
-                <div class="col3 filter col6-xs" data-filter = "photography">Photography</div>
-                <div class="col3 filter col6-xs" data-filter = "pattern">Pattern</div>
-            </div>
-
-            <div class="row box-card jc-evenly-md">
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "art">
-                    <img src="img/collection1.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Johnny
-                            </p>
-                            <h5 class="size2 bold">Yellow Red</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "photography">
-                    <img src="img/collection2.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Freeman
-                            </p>
-                            <h5 class="size2 bold">Blue Thunder</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "pattern">
-                    <img src="img/collection3.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Monalisa
-                            </p>
-                            <h5 class="size2 bold">Golden Lion</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "pattern">
-                    <img src="img/collection4.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Johnny
-                            </p>
-                            <h5 class="size2 bold">Yellow Red</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "photography">
-                    <img src="img/collection5.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Vivianne
-                            </p>
-                            <h5 class="size2 bold">Pink Panther</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "art">
-                    <img src="img/collection6.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Freeman
-                            </p>
-                            <h5 class="size2 bold">Blue Thunder</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold little">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "art">
-                    <img src="img/collection7.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Monalisa
-                            </p>
-                            <h5 class="size2 bold">Golden Lion</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "photography">
-                    <img src="img/collection8.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Johnny
-                            </p>
-                            <h5 class="size2 bold">Yellow Red</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-                <div class="col4 card collect bg-white10 col5-md col6-s" data-item = "pattern">
-                    <img src="img/collection9.png" alt="" class="img-responsive">
-                    <div class="row jc-between spacetop2">
-                        <div>
-                            <p class="size2 halfwhite">
-                                @Vivianne
-                            </p>
-                            <h5 class="size2 bold">Pink Panther</h5>
-                        </div>
-                        <div>
-                            <p class="current halfwhite">Current bid</p>
-                            <h5 class="size2 bold">0.005ETH</h5>
-                        </div>
-                    </div>
-                    <a href="#" class="bid size2 ta-center">Place a bid</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="bold size4 ta-center">Collections</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br />
+          labore et dolore magna aliqua.
+        </p>
+        <div class="row spacebottom3 filter-buttons">
+          <div class="col3 filter col6-xs spacebottom1-xs" data-filter="all">
+            All
+          </div>
+          <div class="col3 filter col6-xs spacebottom1-xs" data-filter="art">
+            Art
+          </div>
+          <div class="col3 filter col6-xs" data-filter="photography">
+            Photography
+          </div>
+          <div class="col3 filter col6-xs" data-filter="pattern">Pattern</div>
         </div>
+
+        <div class="row box-card jc-evenly-md">
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="art"
+          >
+            <img src="img/collection1.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Johnny</p>
+                <h5 class="size2 bold">Yellow Red</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="photography"
+          >
+            <img src="img/collection2.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Freeman</p>
+                <h5 class="size2 bold">Blue Thunder</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="pattern"
+          >
+            <img src="img/collection3.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Monalisa</p>
+                <h5 class="size2 bold">Golden Lion</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="pattern"
+          >
+            <img src="img/collection4.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Johnny</p>
+                <h5 class="size2 bold">Yellow Red</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="photography"
+          >
+            <img src="img/collection5.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Vivianne</p>
+                <h5 class="size2 bold">Pink Panther</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="art"
+          >
+            <img src="img/collection6.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Freeman</p>
+                <h5 class="size2 bold">Blue Thunder</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold little">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="art"
+          >
+            <img src="img/collection7.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Monalisa</p>
+                <h5 class="size2 bold">Golden Lion</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="photography"
+          >
+            <img src="img/collection8.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Johnny</p>
+                <h5 class="size2 bold">Yellow Red</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="pattern"
+          >
+            <img src="img/collection9.png" alt="" class="img-responsive" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Vivianne</p>
+                <h5 class="size2 bold">Pink Panther</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a href="#" class="bid size2 ta-center">Place a bid</a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Collections end  -->
 
     <!-- Feature Section starts -->
     <section id="featured" class="featured spacer10">
-        <div class="container">
-            <h1 class="bold size4 ta-center">Featured Artworks</h1>
-            <p class="spacebottom3 halfwhite size2 ta-center">
-                Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua.
-            </p>
-            <div class="swiper row card-slider">
-                <div class="swiper-wrapper">
-                    <div class="col4 col5-md col7-s swiper-slide">
-                        <div class="card bg-white10">
-                            <img src="img/collection3.png" alt="" class="img-responsive">
-                                <div class="row jc-between spacetop2">
-                                    <div>
-                                        <p class="size2 halfwhite">
-                                            @Monalisa
-                                        </p>
-                                        <h5 class="size2 bold">Golden Lion</h5>
-                                    </div>
-                                    <div>
-                                        <p class="current halfwhite">Current bid</p>
-                                        <h5 class="size2 bold">0.005ETH</h5>
-                                    </div>
-                                </div>
-                                <a href="#" class="bid size2 ta-center">Place a bid</a>
-                        </div>
-                        
-                    </div>
-                    <div class="col4 col5-md col7-s swiper-slide">
-                        <div class="card bg-white10">
-                            <img src="img/collection6.png" alt="" class="img-responsive">
-                                <div class="row jc-between spacetop2">
-                                    <div>
-                                        <p class="size2 halfwhite">
-                                            @Freeman
-                                        </p>
-                                        <h5 class="size2 bold">Blue Thunder</h5>
-                                    </div>
-                                    <div>
-                                        <p class="current halfwhite">Current bid</p>
-                                        <h5 class="size2 bold">0.005ETH</h5>
-                                    </div>
-                                </div>
-                                <a href="#" class="bid size2 ta-center">Place a bid</a>
-                        </div>
-                        
-                    </div>
-                    <div class="col4 col5-md col7-s swiper-slide">
-                        <div class="card bg-white10">
-                            <img src="img/collection9.png" alt="" class="img-responsive">
-                                <div class="row jc-between spacetop2">
-                                    <div>
-                                        <p class="size2 halfwhite">
-                                            @Vivianne
-                                        </p>
-                                        <h5 class="size2 bold">Pink Panther</h5>
-                                    </div>
-                                    <div>
-                                        <p class="current halfwhite">Current bid</p>
-                                        <h5 class="size2 bold">0.005ETH</h5>
-                                    </div>
-                                </div>
-                                <a href="#" class="bid size2 ta-center">Place a bid</a>
-                        </div>
-                        
-                    </div>
-                    <div class="col4 col5-md col7-s swiper-slide">
-                        <div class="card bg-white10">
-                            <img src="img/collection1.png" alt="" class="img-responsive">
-                                <div class="row jc-between spacetop2">
-                                    <div>
-                                        <p class="size2 halfwhite">
-                                            @Johnny
-                                        </p>
-                                        <h5 class="size2 bold">Yellow Red</h5>
-                                    </div>
-                                    <div>
-                                        <p class="current halfwhite">Current bid</p>
-                                        <h5 class="size2 bold">0.005ETH</h5>
-                                    </div>
-                                </div>
-                                <a href="#" class="bid size2 ta-center">Place a bid</a>
-                        </div>
-                        
-                    </div>
+      <div class="container">
+        <h1 class="bold size4 ta-center">Featured Artworks</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br />
+          labore et dolore magna aliqua.
+        </p>
+        <div class="swiper row card-slider">
+          <div class="swiper-wrapper">
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card bg-white10">
+                <img src="img/collection3.png" alt="" class="img-responsive" />
+                <div class="row jc-between spacetop2">
+                  <div>
+                    <p class="size2 halfwhite">@Monalisa</p>
+                    <h5 class="size2 bold">Golden Lion</h5>
+                  </div>
+                  <div>
+                    <p class="current halfwhite">Current bid</p>
+                    <h5 class="size2 bold">0.005ETH</h5>
+                  </div>
                 </div>
+                <a href="#" class="bid size2 ta-center">Place a bid</a>
+              </div>
             </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card bg-white10">
+                <img src="img/collection6.png" alt="" class="img-responsive" />
+                <div class="row jc-between spacetop2">
+                  <div>
+                    <p class="size2 halfwhite">@Freeman</p>
+                    <h5 class="size2 bold">Blue Thunder</h5>
+                  </div>
+                  <div>
+                    <p class="current halfwhite">Current bid</p>
+                    <h5 class="size2 bold">0.005ETH</h5>
+                  </div>
+                </div>
+                <a href="#" class="bid size2 ta-center">Place a bid</a>
+              </div>
+            </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card bg-white10">
+                <img src="img/collection9.png" alt="" class="img-responsive" />
+                <div class="row jc-between spacetop2">
+                  <div>
+                    <p class="size2 halfwhite">@Vivianne</p>
+                    <h5 class="size2 bold">Pink Panther</h5>
+                  </div>
+                  <div>
+                    <p class="current halfwhite">Current bid</p>
+                    <h5 class="size2 bold">0.005ETH</h5>
+                  </div>
+                </div>
+                <a href="#" class="bid size2 ta-center">Place a bid</a>
+              </div>
+            </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card bg-white10">
+                <img src="img/collection1.png" alt="" class="img-responsive" />
+                <div class="row jc-between spacetop2">
+                  <div>
+                    <p class="size2 halfwhite">@Johnny</p>
+                    <h5 class="size2 bold">Yellow Red</h5>
+                  </div>
+                  <div>
+                    <p class="current halfwhite">Current bid</p>
+                    <h5 class="size2 bold">0.005ETH</h5>
+                  </div>
+                </div>
+                <a href="#" class="bid size2 ta-center">Place a bid</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Feature ends -->
 
     <!-- Creator section begins -->
     <section class="creator spacer10">
-        <div class="container">
-            <h1 class="bold size4 ta-center">Top Creators</h1>
-            <p class="spacebottom3 halfwhite size2 ta-center">
-                Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua.
-            </p>
-            <div class="swiper row creator-slider">
-                <div class="swiper-wrapper">    
-                    <div class="col4 col5-md col7-s swiper-slide">
-                        <div class="card-creator bg-white10 ta-center">
-                            <img src="img/creator1.png" class="img-responsive" alt="">
-                            <img src="img/photo1.png" class="photo" alt="">
-                            <h5 class="spacer1 size2 bold">Monalisa Loray</h5>
-                            <p class="spacebottom2 halfwhite desc">Lorem ipsum dolor sit amet ut <br> labore et dolore magna aliqua.</p>
-                            <button class="follow ta-center bg-purple white">+ Follow</button>
-                        </div>
-                    </div>
-                    <div class="col4 col5-md col7-s swiper-slide">
-                        <div class="card-creator bg-white10 ta-center">
-                            <img src="img/creator2.png" class="img-responsive" alt="">
-                            <img src="img/photo2.png" class="photo" alt="">
-                            <h5 class="spacer1 size2 bold">Jon Champion</h5>
-                            <p class="spacebottom2 halfwhite desc">Lorem ipsum dolor sit amet ut <br> labore et dolore magna aliqua.</p>
-                            <button class="follow ta-center bg-purple white">+ Follow</button>
-                        </div>
-                    </div>
-                    <div class="col4 col5-md col7-s swiper-slide">
-                        <div class="card-creator bg-white10 ta-center">
-                            <img src="img/creator3.png" class="img-responsive" alt="">
-                            <img src="img/photo3.png" class="photo" alt="">
-                            <h5 class="spacer1 size2 bold">Vivianne Miedemma</h5>
-                            <p class="spacebottom2 halfwhite desc">Lorem ipsum dolor sit amet ut <br> labore et dolore magna aliqua.</p>
-                            <button class="follow ta-center bg-purple white">+ Follow</button>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="bold size4 ta-center">Top Creators</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br />
+          labore et dolore magna aliqua.
+        </p>
+        <div class="swiper row creator-slider">
+          <div class="swiper-wrapper">
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card-creator bg-white10 ta-center">
+                <img src="img/creator1.png" class="img-responsive" alt="" />
+                <img src="img/photo1.png" class="photo" alt="" />
+                <h5 class="spacer1 size2 bold">Monalisa Loray</h5>
+                <p class="spacebottom2 halfwhite desc">
+                  Lorem ipsum dolor sit amet ut <br />
+                  labore et dolore magna aliqua.
+                </p>
+                <button class="follow ta-center bg-purple white">
+                  + Follow
+                </button>
+              </div>
             </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card-creator bg-white10 ta-center">
+                <img src="img/creator2.png" class="img-responsive" alt="" />
+                <img src="img/photo2.png" class="photo" alt="" />
+                <h5 class="spacer1 size2 bold">Jon Champion</h5>
+                <p class="spacebottom2 halfwhite desc">
+                  Lorem ipsum dolor sit amet ut <br />
+                  labore et dolore magna aliqua.
+                </p>
+                <button class="follow ta-center bg-purple white">
+                  + Follow
+                </button>
+              </div>
+            </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card-creator bg-white10 ta-center">
+                <img src="img/creator3.png" class="img-responsive" alt="" />
+                <img src="img/photo3.png" class="photo" alt="" />
+                <h5 class="spacer1 size2 bold">Vivianne Miedemma</h5>
+                <p class="spacebottom2 halfwhite desc">
+                  Lorem ipsum dolor sit amet ut <br />
+                  labore et dolore magna aliqua.
+                </p>
+                <button class="follow ta-center bg-purple white">
+                  + Follow
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Creator ends -->
 
     <!-- FAQ section starts -->
     <section id="faq" class="spacer10">
-        <div class="container">
-            <h1 class="bold size4 ta-center">Frequently Asked <br> Questions</h1>
-            <p class="spacebottom3 halfwhite size2 ta-center">
-                Commonly asked questions
-            </p>
-            <div class="row jc-between">
-                <div class="box-faq col6 col12-s">
-                    <div class="box spacebottom5">
-                        <div class="title row jc-between">
-                            <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                            <i class="fas fa-angle-down size2 halfwhite"></i>
-                            <p class="answer size2 spacetop1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nesciunt officia sunt et! Dolores expedita explicabo sapiente dignissimos cumque fuga.</p>
-
-                        </div>
-                    </div>
-                    <div class="box spacebottom5">
-                        <div class="title row jc-between">
-                            <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                            <i class="fas fa-angle-down size2 halfwhite"></i>
-                            <p class="answer size2 spacetop1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nesciunt officia sunt et! Dolores expedita explicabo sapiente dignissimos cumque fuga.</p>
-                            
-                        </div>
-                    </div>
-                    <div class="box spacebottom5">
-                        <div class="title row jc-between">
-                            <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                            <i class="fas fa-angle-down size2 halfwhite"></i>
-                            <p class="answer size2 spacetop1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nesciunt officia sunt et! Dolores expedita explicabo sapiente dignissimos cumque fuga.</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="box-faq col6 col12-s">
-                    <div class="box spacebottom5">
-                        <div class="title row jc-between">
-                            <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                            <i class="fas fa-angle-down size2 halfwhite"></i>
-                            <p class="answer size2 spacetop1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nesciunt officia sunt et! Dolores expedita explicabo sapiente dignissimos cumque fuga.</p>
-                            
-                        </div>
-                    </div>
-                    <div class="box spacebottom5">
-                        <div class="title row jc-between">
-                            <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                            <i class="fas fa-angle-down size2 halfwhite"></i>
-                            <p class="answer size2 spacetop1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nesciunt officia sunt et! Dolores expedita explicabo sapiente dignissimos cumque fuga.</p>
-                            
-                        </div>
-                    </div>
-                    <div class="box spacebottom5">
-                        <div class="title row jc-between">
-                            <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                            <i class="fas fa-angle-down size2 halfwhite"></i>
-                            <p class="answer size2 spacetop1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nesciunt officia sunt et! Dolores expedita explicabo sapiente dignissimos cumque fuga.</p>
-                            
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="bold size4 ta-center">
+          Frequently Asked <br />
+          Questions
+        </h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          Commonly asked questions
+        </p>
+        <div class="row jc-between">
+          <div class="box-faq col6 col12-s">
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <div class="text">
+                <p class="answer size2 spacetop1">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                  nesciunt officia sunt et! Dolores expedita explicabo sapiente
+                  dignissimos cumque fuga.
+                </p>
+              </div>
             </div>
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <div class="text">
+                <p class="answer size2 spacetop1">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                  nesciunt officia sunt et! Dolores expedita explicabo sapiente
+                  dignissimos cumque fuga.
+                </p>
+              </div>
+            </div>
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <div class="text">
+                <p class="answer size2 spacetop1">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                  nesciunt officia sunt et! Dolores expedita explicabo sapiente
+                  dignissimos cumque fuga.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-faq col6 col12-s">
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <div class="text">
+                <p class="answer size2 spacetop1">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                  nesciunt officia sunt et! Dolores expedita explicabo sapiente
+                  dignissimos cumque fuga.
+                </p>
+              </div>
+            </div>
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <div class="text">
+                <p class="answer size2 spacetop1">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                  nesciunt officia sunt et! Dolores expedita explicabo sapiente
+                  dignissimos cumque fuga.
+                </p>
+              </div>
+            </div>
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <div class="text">
+                <p class="answer size2 spacetop1">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                  nesciunt officia sunt et! Dolores expedita explicabo sapiente
+                  dignissimos cumque fuga.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!--FAQ ends -->
 
     <!-- Banner section starts -->
     <section class="space10" id="banner">
-        <div class="container spacer5 bg-purple ta-center">
-            <h1 class="size5 bold spacebottom2 size4-xs">Get ready to collect <br>our NFT</h1>
-            <a href="#" class="btn bg-halfwhite size2 started">Get Started</a>
-        </div>
+      <div class="container spacer5 bg-purple ta-center">
+        <h1 class="size5 bold spacebottom2 size4-xs">
+          Get ready to collect <br />our NFT
+        </h1>
+        <a href="#" class="btn bg-halfwhite size2 started">Get Started</a>
+      </div>
     </section>
     <!-- Banner ends -->
-    
+
     <!-- Footer Section starts -->
     <footer class="spacer10">
-        <section class="space10">
-            <div class="container row jc-between flexcol-s ta-center-s">
-                <div class="row flexcol spacebottom3-s">
-                    <a href="#home" class="size2 bold white">Psych<span class="lightpurple">Art</span></a>
-                    <p class="size2 halfwhite spacetop1">The best NFT marketplace website in<br>the world and feel your experience in<br>selling or buy our work</p>
-                </div>
-                <div class="row flexcol spacebottom3-s">
-                    <a href="#about" class="bold size2 white">About</a>
-                    <a href="#" class="size2 halfwhite spacetop1">Product</a>
-                    <a href="#" class="size2 halfwhite spacetop1">Resource</a>
-                    <a href="#" class="size2 halfwhite spacetop1">Term & Condition</a>
-                    <a href="#" class="size2 halfwhite spacetop1">FAQ</a>
-                </div>
-                <div class="row flexcol spacebottom3-s">
-                    <a href="#" class="bold size2 white">Company</a>
-                    <a href="#" class="size2 halfwhite spacetop1">Our Team</a>
-                    <a href="#" class="size2 halfwhite spacetop1">Partner With Us</a>
-                    <a href="#" class="size2 halfwhite spacetop1">Privacy & Policy</a>
-                    <a href="#" class="size2 halfwhite spacetop1">Features</a>
-                </div>
-                <div class="row flexcol spacebottom3-s">
-                    <h5 class="bold size2">Contact</h5>
-                    <a href="#" class="size2 halfwhite spacetop1">+234 8123456790</a>
-                    <a href="#" class="size2 halfwhite spacetop1">abc@gmail.com</a>
-                    <div class="row jc-between spacetop2 jc-evenly-s">
-                        <a href="#" class="fab fa-youtube size2 halfwhite spacetop1"></a>
-                        <a href="#" class="fab fa-twitter size2 halfwhite spacetop1"></a>
-                        <a href="#" class="fab fa-instagram size2 halfwhite spacetop1"></a>
-                    </div>
-                </div>
+      <section class="space10">
+        <div class="container row jc-between flexcol-s ta-center-s">
+          <div class="row flexcol spacebottom3-s">
+            <a href="#home" class="size2 bold white"
+              >Psych<span class="lightpurple">Art</span></a
+            >
+            <p class="size2 halfwhite spacetop1">
+              The best NFT marketplace website in<br />the world and feel your
+              experience in<br />selling or buy our work
+            </p>
+          </div>
+          <div class="row flexcol spacebottom3-s">
+            <a href="#about" class="bold size2 white">About</a>
+            <a href="#" class="size2 halfwhite spacetop1">Product</a>
+            <a href="#" class="size2 halfwhite spacetop1">Resource</a>
+            <a href="#" class="size2 halfwhite spacetop1">Term & Condition</a>
+            <a href="#" class="size2 halfwhite spacetop1">FAQ</a>
+          </div>
+          <div class="row flexcol spacebottom3-s">
+            <a href="#" class="bold size2 white">Company</a>
+            <a href="#" class="size2 halfwhite spacetop1">Our Team</a>
+            <a href="#" class="size2 halfwhite spacetop1">Partner With Us</a>
+            <a href="#" class="size2 halfwhite spacetop1">Privacy & Policy</a>
+            <a href="#" class="size2 halfwhite spacetop1">Features</a>
+          </div>
+          <div class="row flexcol spacebottom3-s">
+            <h5 class="bold size2">Contact</h5>
+            <a href="#" class="size2 halfwhite spacetop1">+234 8123456790</a>
+            <a href="#" class="size2 halfwhite spacetop1">abc@gmail.com</a>
+            <div class="row jc-between spacetop2 jc-evenly-s">
+              <a href="#" class="fab fa-youtube size2 halfwhite spacetop1"></a>
+              <a href="#" class="fab fa-twitter size2 halfwhite spacetop1"></a>
+              <a
+                href="#"
+                class="fab fa-instagram size2 halfwhite spacetop1"
+              ></a>
             </div>
-            <p class="size2 halfwhite spacetop10 ta-center">Created by <span class="bold white">Mogboluwaga</span> | Designed by <span class="bold white">Zarror</span></p>
-        </section>
+          </div>
+        </div>
+        <p class="size2 halfwhite spacetop10 ta-center">
+          Created by <span class="bold white">Mogboluwaga</span> | Designed by
+          <span class="bold white">Zarror</span>
+        </p>
+      </section>
     </footer>
     <!-- Footer ends-->
 
-    
-
-
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
